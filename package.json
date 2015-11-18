@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Make online multiplayer games in RPG Maker MV",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YLivay/Cobweb-Server.git"
@@ -22,11 +25,7 @@
   },
   "homepage": "https://github.com/YLivay/Cobweb-Server#readme",
   "dependencies": {
-    "JSONStream": "^1.0.6",
-    "engine.io": "^1.5.4",
     "event-stream": "^3.3.2",
-    "primus": "4.0.1",
-    "sockjs": "^0.3.15",
     "websocket-stream": "^2.1.0"
   },
   "devDependencies": {

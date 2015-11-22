@@ -1,7 +1,11 @@
 {
     "compilerOptions": {
         "target": "ES5",
-        "module": "commonjs",
+        "module": "amd",
         "sourceMap": true
-    }
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ]
 }

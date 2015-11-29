@@ -2,10 +2,6 @@
   "name": "cobweb-server",
   "version": "0.0.1",
   "description": "Make online multiplayer games in RPG Maker MV",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YLivay/Cobweb-Server.git"
@@ -29,6 +25,14 @@
     "websocket-stream": "^2.1.0"
   },
   "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.9.2",
+    "run-sequence": "^1.1.4",
+    "typescript": "~1.8.0-dev.20151121",
     "mocha": "2.3.4",
     "expect.js": "0.3.1"
   }
